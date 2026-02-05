@@ -5,21 +5,25 @@
 }
 
 body {
-  background-color: #000;
-  color: #fff;
+  background-color: #14120b;
+  color: #edecec;
   font-family: "Satoshi", sans-serif;
-  padding: 20px 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .logo {
   width: 95.75px;
-  color: #fff;
+  color: #edecec;
 }
 
 .nav-links {
@@ -31,8 +35,9 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #fff;
+  color: #edecec;
   font-weight: 500;
+  transition: all 0.3s ease;
 }
 
 .nav-links a:hover {
@@ -45,20 +50,21 @@ body {
 }
 
 .sign-in {
-  padding: 1px 15px;
+  padding: 5px 15px;
   border-radius: 20px;
   background-color: transparent;
-  color: #fff;
+  color: #edecec;
   text-decoration: none;
   font-weight: 400;
   font-size: 15px;
   transition: all 0.3s ease;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 
 .sign-in:hover {
-  background-color: hsla(0, 48%, 21%, 0.016);
-  color: #fff;
+  background-color: #1c1c1c9e;
+  color: #edecec;
 }
 
 .download-btn {
@@ -71,5 +77,88 @@ body {
   font-size: 15px;
   transition: all 0.3s ease;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 
+.download-btn:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.hero-section {
+  margin-top: 120px;
+}
+
+.hero-title {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.download-ctc {
+  margin-top: 24px;
+  padding: 12.48px 21.6px 12.48px;
+  font-size: 16px;
+  border-radius: 24px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.download-ctc:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.trust-container {
+    max-width: 1440px;
+  margin-top: 80px;
+}
+
+.trust-text {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.trust-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.logos {
+  width: 168px;
+  height: 100px;
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.02)
+  );
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.02),
+    0 20px 40px rgba(0, 0, 0, 0.6);
+    padding: 24px 12px;
+}
