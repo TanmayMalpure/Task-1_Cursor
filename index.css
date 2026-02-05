@@ -258,3 +258,15 @@ body {
 .learn-more-2-:hover {
   color: oklab(0.652196 0.168318 0.131453 / 0.75);
 }
+
+
+.card-container {
+  margin-top: 120px;
+}
+
+.card-title {
+  font-size: 28px;
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+}
