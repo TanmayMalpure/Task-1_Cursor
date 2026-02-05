@@ -122,8 +122,9 @@ body {
 }
 
 .trust-container {
-    max-width: 1440px;
+  max-width: 1440px;
   margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 .trust-text {
@@ -157,8 +158,103 @@ body {
   border-radius: 4px;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.02),
-    0 20px 40px rgba(0, 0, 0, 0.6);
-    padding: 24px 12px;
+  padding: 24px 12px;
+}
+
+.features-container {
+  border-radius: 8px;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.02)
+  );
+  padding: 20px 0;
+}
+
+.features-text {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.features-description {
+  font-size: 22px;
+  color: oklab(0.943853 0.00107113 0.000336707 / 0.6);
+  line-height: 28.6px;
+}
+
+.features-title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.6px;
+}
+
+.learn-more {
+  color: #f54e00;
+  font-size: 16px;
+  line-height: 22px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.learn-more:hover {
+  color: oklab(0.652196 0.168318 0.131453 / 0.75);
+}
+
+.features-img {
+  width: 100%;
+}
+
+.features-container-2 {
+  border-radius: 8px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.02)
+  );
+  gap: 70px;
+  padding: 20px 0;
+}
+
+.features-text-2 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.features-description-2 {
+    font-size: 22px;
+  color: oklab(0.943853 0.00107113 0.000336707 / 0.6);
+  line-height: 28.6px;
+}
+ 
+.features-title-2 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.6px;
+}
+
+.learn-more-2- {
+  color: #f54e00;
+  font-size: 16px;
+  line-height: 22px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.learn-more-2-:hover {
+  color: oklab(0.652196 0.168318 0.131453 / 0.75);
 }
