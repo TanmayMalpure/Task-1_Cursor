@@ -270,3 +270,28 @@ body {
   justify-content: center;
   font-weight: 400;
 }
+
+.testominals {
+  margin-top: 40px;
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.02)
+  );
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-quote {
+  font-size: 16px;
+  line-height: 22px; 
+}
